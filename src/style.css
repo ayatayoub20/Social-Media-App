@@ -1,0 +1,30 @@
+.theme-light{
+    color: #000;
+    background-color: whitesmoke;
+    --logo-color: darkblue;
+    --bg-soft-color: #f6f3f3;
+    --text-color-soft: #555;
+    --border-color: lightgray;
+  }
+  
+  .theme-dark {
+    color: whitesmoke;
+    background-color: #222;
+    --logo-color: white;
+    --bg-soft-color: #333;
+    --text-color-soft: lightgray;
+    --border-color: #444;
+  }
+  
+  @media (max-width: 480px) {
+    .mobile {
+      @content;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .tablet {
+      @content;
+    }
+  }
+  
