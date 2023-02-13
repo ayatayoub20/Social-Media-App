@@ -1,3 +1,6 @@
+
+# Social media website design using React, HTML, and CSS.
+# React social media app using React Hooks, Context API, Dark Mode, Responsive design.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
